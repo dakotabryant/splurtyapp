@@ -75,6 +75,22 @@ h2 {
 .dakota {
   padding-top: 75px
 }
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+.modal {
+  font-family: Gotham, sans-serif;
+}
+h2 span {
+  color: #dddddd;
+  font-family: Gotham, sans-serif;
+}
+::selection {
+  background-color: #F84342;
+}
 // .containr {
 //   width: 150px;
 //   height: 47px;
