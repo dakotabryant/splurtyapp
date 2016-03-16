@@ -38,6 +38,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem "passenger", ">= 5.0.25", require: "phusion_passenger/rack_handler"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
